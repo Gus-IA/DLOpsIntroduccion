@@ -28,8 +28,8 @@ for ix in range(25):
 plt.tight_layout()
 plt.show()
 
-X_train_3 = X_train[y_train == "3"][:100]
-X_train_no_3 = X_train[y_train != "3"][:100]
+X_train_3 = X_train[y_train == "3"][:200]
+X_train_no_3 = X_train[y_train != "3"][:200]
 
 len(X_train_3), len(X_train_no_3)
 
